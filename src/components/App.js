@@ -38,7 +38,7 @@ function App() {
                     console.log(chapterIds)
                     const buttons = chapterIds.map(chapterId => {
                       return (
-                        <Button key={chapterId} name={chapterId} onClick={() => console.log('ugj')}>
+                        <Button key={chapterId} name={chapterId} onClick={() => console.log('clicked')}>
                         </Button>
                       )});
                       ReactDOM.render(buttons, document.getElementById('btns'))
