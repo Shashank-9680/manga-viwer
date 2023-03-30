@@ -1,0 +1,37 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.body {
+  display: grid;
+  place-items: center;
+  height: 100vh;
+}
+.container {
+  width: 500px;
+  height: 500px;
+  border: 1px solid black;
+  padding: 1rem;
+}
+.box1 {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+}
+/* .title-btn {
+  margin-top: 1em;
+  width: 120px;
+  height: 20px;
+} */
+.box2 {
+  margin-top: 0.5em;
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.title-btn {
+  border: 1px solid black;
+  padding: 3px 5px;
+  border-radius: 5px;
+}
