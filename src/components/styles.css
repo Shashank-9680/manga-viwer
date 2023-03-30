@@ -12,6 +12,7 @@
   height: 500px;
   border: 1px solid black;
   padding: 1rem;
+ background: url('https://source.unsplash.com/random') center/cover;
 }
 .box1 {
   display: flex;
